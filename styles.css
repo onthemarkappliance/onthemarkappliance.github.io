@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* You can change the background color if needed */
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Adds a buffer on the sides */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+    flex-direction: column;
+}
+
+svg {
+    width: 100%;
+    max-width: 90%; /* Ensures there is a buffer on the sides */
+    height: auto;
+}
